@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li:before {
+    /* Unicode bullet symbol */
+    content: '\00BB ';
+    /* Bullet color */
+    color: yellow;
+    padding-right: 0.5em;
+}
+ul li {
+    list-style-type: none;
+}
+.yellow {
+    color: #d7b700;
+}
+.white {
+    color: white;
+}
+.black {
+    color: black;
+}
+
+.container {
+    background-color: #1b4f78;
+    width: 1000px;
+}
+
+.header {
+    /* border: 1px dashed green; */
+    padding: 8px;
+}
+
+.header__img {
+    width: 400px;
+    display: inline-block;
+}
+
+.header__search {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 260px;
+}
+.header__search--text {
+    width: 255px;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.header__search--background {
+    background-color: #444444;
+    height: 35px;
+    width: 240px;
+    padding: 15px 30px; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.search__input {
+    height: 26px;
+    width: 160px;
+    margin-left: 20px;
+}
+
+.search__btn {
+    background-color: #1b4f78;
+    height: 30px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    width: 36px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav {
+    padding: 20px;
+    background-color: #3c7daf;
+    margin: 0 48px;
+    /* text-align: center; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__btn {
+    /* width: 140px; */
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: #eee;
+}
+
+.main {
+    padding-top: 20px;
+}
+
+.main__list {
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+.main__list--item {
+    margin-bottom: 10px;
+}
+.main__list a {
+    color: #eee;
+}
+.main__desc {
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+    text-align: center;
+}
+.main__desc--history {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pep-style {
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #ffd800;
+    font-weight: 100;
+}
+
+.zen {
+    color: #eee;
+    font-weight: lighter;
+}
